@@ -8,6 +8,8 @@ import firebaseRoutes from "./routes/firebaseRoute";
 import biconomyRoutes from "./routes/biconomyRoute";
 import dotenv from "dotenv";
 
+dotenv.config();
+
 const app = express();
 
 app.use(
