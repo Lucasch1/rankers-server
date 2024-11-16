@@ -11,12 +11,16 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
+        "@biconomy/sdk": "^0.0.10",
+        "@rhinestone/module-sdk": "^0.1.28",
         "body-parser": "^1.20.3",
         "compression": "^1.7.5",
         "cookie-parser": "^1.4.7",
         "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
         "express": "^4.21.1",
-        "firebase-admin": "^13.0.0"
+        "firebase-admin": "^13.0.0",
+        "viem": "^2.21.45"
     },
     "devDependencies": {
         "@types/body-parser": "^1.19.5",
